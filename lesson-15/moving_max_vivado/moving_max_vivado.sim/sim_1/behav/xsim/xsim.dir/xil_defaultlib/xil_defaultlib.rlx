@@ -1,0 +1,10 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.gen/sources_1/ip/moving_max_0/sim/moving_max_0.v,1794756609,verilog,,,,moving_max_0,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.ip_user_files/ipstatic/hdl/verilog/moving_max.v,1794756626,verilog,,C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.gen/sources_1/ip/moving_max_0/sim/moving_max_0.v,,moving_max,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.ip_user_files/ipstatic/hdl/verilog/moving_max_flow_control_loop_pipe_sequential_init.v,1794756627,verilog,,C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.ip_user_files/ipstatic/hdl/verilog/moving_max_moving_max_Pipeline_MAIN_LOOP.v,,moving_max_flow_control_loop_pipe_sequential_init,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.ip_user_files/ipstatic/hdl/verilog/moving_max_moving_max_Pipeline_MAIN_LOOP.v,1794756626,verilog,,C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.ip_user_files/ipstatic/hdl/verilog/moving_max.v,,moving_max_moving_max_Pipeline_MAIN_LOOP,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/User/Projects/fpga/lesson-15/moving_max_vivado/moving_max_vivado.srcs/sim_1/new/moving_max_tb.sv,1794756671,systemVerilog,,,,moving_max_tb,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,

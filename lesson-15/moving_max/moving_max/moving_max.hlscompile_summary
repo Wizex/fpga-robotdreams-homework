@@ -1,0 +1,246 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\moving_max.hlscompile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/15/26 17:26:56",
+ "timestampMillis": "1794756416694",
+ "buildStep": {
+  "cmdId": "ab220b93-0b49-4eb0-b5b0-de04f32d5aa1",
+  "name": "v++",
+  "logFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\logs\\moving_max.steps.log",
+  "commandLine": "C:/AMDDesignTools/2026.1/Vitis/bin/unwrapped/win64.o/v++.exe  -c --mode hls --config C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\hls_config.cfg --work_dir moving_max ",
+  "args": [
+   "-c",
+   "--mode",
+   "hls",
+   "--config",
+   "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\hls_config.cfg",
+   "--work_dir",
+   "moving_max"
+  ],
+  "iniFiles": [
+   {
+    "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\hls_config.cfg",
+    "content": "part=xc7z020clg400-1\n\n[hls]\npackage.output.format=ip_catalog\npackage.output.syn=false\nsyn.file=moving_max.cpp\nsyn.file=moving_max.h\ntb.file=moving_max_tb.cpp\nsyn.top=moving_max\nsyn.compile.pipeline_loops=0"
+   }
+  ],
+  "cwd": "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:26:56",
+ "timestampMillis": "1794756416694",
+ "status": {
+  "cmdId": "ab220b93-0b49-4eb0-b5b0-de04f32d5aa1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422070",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max.cpp",
+     "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422071",
+ "buildStep": {
+  "cmdId": "53dadca9-74d4-494c-aaff-ea19f02906c4",
+  "name": "",
+  "logFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422072",
+ "status": {
+  "cmdId": "53dadca9-74d4-494c-aaff-ea19f02906c4",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422072",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls\\hls_data.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422073",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls\\syn\\report\\csynth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:02",
+ "timestampMillis": "1794756422073",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls\\syn\\report\\csynth.xml",
+  "name": "",
+  "fileType": "XML",
+  "reportType": "HLS_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439710",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_DATAFLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439711",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_FUNCTION_CALL_GRAPH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439711",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls",
+  "name": "",
+  "fileType": "DIR",
+  "reportType": "HLS_SCHEDULE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439712",
+ "status": {
+  "cmdId": "53dadca9-74d4-494c-aaff-ea19f02906c4",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439853",
+ "status": {
+  "cmdId": "ab220b93-0b49-4eb0-b5b0-de04f32d5aa1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439876",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\reports\\v++_compile_moving_max_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:27:19",
+ "timestampMillis": "1794756439877",
+ "report": {
+  "path": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\reports\\.db\\v++_compile_moving_max_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

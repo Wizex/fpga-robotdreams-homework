@@ -1,0 +1,157 @@
+<ENTRY>
+{
+ "thisFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\moving_max.hlsrun_package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "11/15/26 17:28:07",
+ "timestampMillis": "1794756487609",
+ "buildStep": {
+  "cmdId": "046feacf-e12b-4a28-8d8e-804351a3e8fd",
+  "name": "vitis-run",
+  "logFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\logs\\moving_max.steps.log",
+  "commandLine": "C:/AMDDesignTools/2026.1/Vitis/bin/unwrapped/win64.o/vitis-run.exe  --mode hls --package --config C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\hls_config.cfg --work_dir moving_max ",
+  "args": [
+   "--mode",
+   "hls",
+   "--package",
+   "--config",
+   "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\hls_config.cfg",
+   "--work_dir",
+   "moving_max"
+  ],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:28:07",
+ "timestampMillis": "1794756487609",
+ "status": {
+  "cmdId": "046feacf-e12b-4a28-8d8e-804351a3e8fd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "11/15/26 17:28:13",
+ "timestampMillis": "1794756493207",
+ "buildSummary": {
+  "hardwarePlatform": "",
+  "hardwareDsa": "",
+  "platformDirectory": "",
+  "runtime": "",
+  "systemConfig": "",
+  "flow": "BF_RUN",
+  "target": "TT_HLS_IP",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "moving_max",
+     "file": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\moving_max.zip",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max.cpp",
+     "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max.h"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "2026.1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "11/15/26 17:28:13",
+ "timestampMillis": "1794756493208",
+ "buildStep": {
+  "cmdId": "b522d028-63fd-4dae-a0ff-ccb517849b38",
+  "name": "",
+  "logFile": "C:/Users\\User\\Projects\\fpga\\lesson-15\\moving_max\\moving_max\\hls\\hls.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "C:\\Users\\User\\Projects\\fpga\\lesson-15\\moving_max"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:28:13",
+ "timestampMillis": "1794756493209",
+ "status": {
+  "cmdId": "b522d028-63fd-4dae-a0ff-ccb517849b38",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:28:28",
+ "timestampMillis": "1794756508291",
+ "status": {
+  "cmdId": "b522d028-63fd-4dae-a0ff-ccb517849b38",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "11/15/26 17:28:28",
+ "timestampMillis": "1794756508441",
+ "status": {
+  "cmdId": "046feacf-e12b-4a28-8d8e-804351a3e8fd",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:28:28",
+ "timestampMillis": "1794756508442",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "11/15/26 17:28:28",
+ "timestampMillis": "1794756508442",
+ "report": {
+  "path": "",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
