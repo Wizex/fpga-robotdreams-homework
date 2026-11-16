@@ -1,0 +1,7 @@
+create libxil.a
+addlib C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/tmrctr/src/libtmrctr.a
+addlib C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/intc/src/libintc.a
+addlib C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end
