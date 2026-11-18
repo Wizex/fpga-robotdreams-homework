@@ -38,7 +38,7 @@
                         xlnx,number-of-wr-addr-brk = <0x0>;
                         xlnx,dynamic-bus-sizing = <0x0>;
                         xlnx,temporal-depth = <0x0>;
-                        xlnx,use-interrupt = <0x0>;
+                        xlnx,use-interrupt = <0x1>;
                         xlnx,optimization = <0x0>;
                         xlnx,ip-axi-mon = <0x0>;
                         d-cache-highaddr = <0x3fffffff>;
@@ -147,6 +147,7 @@
                         xlnx,lockstep-slave = <0x0>;
                         xlnx,use-ext-nm-brk = <0x0>;
                         xlnx,instr-size = <0x20>;
+                        interrupt-handle = <&axi_intc_0>;
                         xlnx,icache-always-used = <0x1>;
                         xlnx,i-lmb = <0x1>;
                         xlnx,mmu-dtlb-size = <0x4>;
@@ -254,12 +255,14 @@
                 buttons: gpio@40000000 {
                         phandle = <0x3>;
                         #interrupt-cells = <0x2>;
+                        interrupts = <0x1 0x2>;
                         xlnx,gpio-board-interface = "btns_4bits";
                         compatible = "xlnx,axi-gpio-2.0", "xlnx,xps-gpio-1.00.a";
                         xlnx,all-outputs = <0x0>;
                         #gpio-cells = <0x2>;
                         xlnx,gpio-width = <0x4>;
                         clock-frequency = <0x5f5e100>;
+                        interrupt-parent = <&axi_intc_0>;
                         xlnx,dout-default = <0x0>;
                         xlnx,is-dual = <0x0>;
                         xlnx,ip-name = "axi_gpio";
@@ -279,6 +282,7 @@
                         clock-names = "s_axi_aclk";
                         xlnx,use-board-flow;
                         interrupt-controller;
+                        interrupt-names = "ip2intc_irpt";
                         xlnx,tri-default = <0xffffffff>;
                         xlnx,name = "buttons";
                         xlnx,all-inputs = <0x1>;
@@ -413,12 +417,14 @@
                 switch: gpio@40020000 {
                         phandle = <0x5>;
                         #interrupt-cells = <0x2>;
+                        interrupts = <0x2 0x2>;
                         xlnx,gpio-board-interface = "sws_2bits";
                         compatible = "xlnx,axi-gpio-2.0", "xlnx,xps-gpio-1.00.a";
                         xlnx,all-outputs = <0x0>;
                         #gpio-cells = <0x2>;
                         xlnx,gpio-width = <0x2>;
                         clock-frequency = <0x5f5e100>;
+                        interrupt-parent = <&axi_intc_0>;
                         xlnx,dout-default = <0x0>;
                         xlnx,is-dual = <0x0>;
                         xlnx,ip-name = "axi_gpio";
@@ -438,6 +444,7 @@
                         clock-names = "s_axi_aclk";
                         xlnx,use-board-flow;
                         interrupt-controller;
+                        interrupt-names = "ip2intc_irpt";
                         xlnx,tri-default = <0xffffffff>;
                         xlnx,name = "switch";
                         xlnx,all-inputs = <0x1>;
@@ -445,10 +452,12 @@
 
                 timer: timer@41c00000 {
                         phandle = <0x7>;
+                        interrupts = <0x0 0x2>;
                         compatible = "xlnx,axi-timer-2.0", "xlnx,xps-timer-1.00.a";
                         xlnx,gen1-assert = <0x1>;
                         clock-frequency = <0x5f5e100>;
                         xlnx,trig0-assert = <0x1>;
+                        interrupt-parent = <&axi_intc_0>;
                         xlnx,count-width = <0x20>;
                         xlnx,ip-name = "axi_timer";
                         xlnx,one-timer-only = <0x0>;
@@ -460,6 +469,7 @@
                         status = "okay";
                         xlnx,trig1-assert = <0x1>;
                         xlnx,enable-timer2 = <0x1>;
+                        interrupt-names = "interrupt";
                         xlnx,name = "timer";
                 };
         };

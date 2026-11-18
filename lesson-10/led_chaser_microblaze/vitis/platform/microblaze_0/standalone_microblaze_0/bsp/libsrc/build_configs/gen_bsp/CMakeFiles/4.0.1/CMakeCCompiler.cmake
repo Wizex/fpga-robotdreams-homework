@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/include;C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include;C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include-fixed;C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/include;C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include;C:/AMDDesignTools/2026.1/gnu/microblaze/nt/x86_64-oesdk-mingw32/usr/lib/microblaze-xilinx-elf/gcc/microblaze-xilinx-elf/13.4.0/include-fixed;C:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/microblazeeb-xilinx-elf/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

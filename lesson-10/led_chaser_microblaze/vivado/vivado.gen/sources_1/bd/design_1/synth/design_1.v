@@ -2,7 +2,7 @@
 //Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
-//Date        : Mon Nov 16 00:04:02 2026
+//Date        : Wed Nov 18 02:21:09 2026
 //Host        : DESKTOP-8KUUFF7 running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -32,6 +32,7 @@ module design_1
   wire [3:0]arduino_a0_a5_0_tri_t;
   wire [1:0]arduino_a0_a5_1_tri_i;
   wire [3:0]arduino_a0_a5_tri_i;
+  wire axi_intc_0_interrupt_INTERRUPT;
   wire buttons_ip2intc_irpt;
   wire clk_wiz_locked;
   wire mdm_1_debug_sys_rst;
@@ -178,6 +179,7 @@ module design_1
 
   design_1_axi_intc_0_0 axi_intc_0
        (.intr(xlconcat_0_dout),
+        .irq(axi_intc_0_interrupt_INTERRUPT),
         .s_axi_aclk(microblaze_0_Clk),
         .s_axi_araddr(smartconnect_0_M04_AXI_ARADDR),
         .s_axi_aresetn(rst_clk_wiz_1_100M_peripheral_aresetn),
@@ -288,7 +290,7 @@ module design_1
         .I_AS(microblaze_0_ilmb_1_ADDRSTROBE),
         .Instr(microblaze_0_ilmb_1_READDBUS),
         .Instr_Addr(microblaze_0_ilmb_1_ABUS),
-        .Interrupt(1'b0),
+        .Interrupt(axi_intc_0_interrupt_INTERRUPT),
         .Interrupt_Address({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .M_AXI_DP_ARADDR(microblaze_0_M_AXI_DP_ARADDR),
         .M_AXI_DP_ARPROT(microblaze_0_M_AXI_DP_ARPROT),

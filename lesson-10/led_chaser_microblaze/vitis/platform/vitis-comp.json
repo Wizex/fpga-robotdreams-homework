@@ -3,7 +3,7 @@
   "type": "PLATFORM",
   "configuration": {
     "description": "",
-    "xsa": "C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vivado/design_1_wrapper.xsa",
+    "xsa": "C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vivado/design_1_wrapper.xsa",
     "xsaPathInPlatform": "platform/hw/design_1_wrapper.xsa",
     "emulationXsa": "",
     "emulationXsaPathInPlatform": "",

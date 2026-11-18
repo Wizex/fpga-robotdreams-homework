@@ -230,6 +230,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "1"
               },
@@ -243,6 +246,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -261,6 +267,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "1"
               },
@@ -274,6 +283,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -292,6 +304,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "1"
               },
@@ -305,6 +320,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -323,6 +341,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "1"
               },
@@ -336,6 +357,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -354,6 +378,9 @@
             "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
             "parameters": {
+              "MAX_BURST_LENGTH": {
+                "value": "1"
+              },
               "NUM_READ_OUTSTANDING": {
                 "value": "1"
               },
@@ -367,6 +394,9 @@
                 "value": "1"
               },
               "RUSER_BITS_PER_BYTE": {
+                "value": "0"
+              },
+              "SUPPORTS_NARROW_BURST": {
                 "value": "0"
               },
               "WUSER_BITS_PER_BYTE": {
@@ -843,6 +873,12 @@
       }
     },
     "interface_nets": {
+      "axi_intc_0_interrupt": {
+        "interface_ports": [
+          "axi_intc_0/interrupt",
+          "microblaze_0/INTERRUPT"
+        ]
+      },
       "buttons_GPIO": {
         "interface_ports": [
           "arduino_a0_a5",
@@ -1054,7 +1090,7 @@
       "file": {
         "name": "..\\..\\..\\..\\..\\vitis\\app_component\\build\\app_component.elf",
         "type": "ELF",
-        "checksum": "2473493007",
+        "checksum": "3442264286",
         "IsVisible": "1",
         "ScopedToRef": "design_1",
         "ScopedToCell": [

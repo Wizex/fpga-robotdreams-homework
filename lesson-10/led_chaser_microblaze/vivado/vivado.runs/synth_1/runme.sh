@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vivado/vivado.runs/synth_1'
+HD_PWD='C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vivado/vivado.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

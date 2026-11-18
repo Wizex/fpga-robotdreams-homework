@@ -2,7 +2,7 @@
   "schema": "xilinx.com:schema:json_instance:1.0",
   "ip_inst": {
     "xci_name": "bd_48ac_winsw_0",
-    "cell_name": "w_la_in_swbd",
+    "cell_name": "switchboards/w_la_in_swbd",
     "component_reference": "xilinx.com:ip:sc_switchboard:1.0",
     "ip_revision": "9",
     "gen_directory": ".",
@@ -398,5 +398,5 @@
       }
     }
   },
-  "checksum": "09ad7ea8"
+  "checksum": "0ddf114b"
 }

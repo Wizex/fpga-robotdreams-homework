@@ -1,6 +1,6 @@
 sdt: hw_artifacts/microblaze_0_baremetal.dts
 family: zynq
-path: C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp
+path: C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp
 config: None
 os: standalone
 os_info:

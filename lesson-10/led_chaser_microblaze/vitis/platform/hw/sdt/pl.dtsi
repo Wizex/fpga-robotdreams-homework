@@ -14,7 +14,7 @@
 			xlnx,number-of-wr-addr-brk = <0>;
 			xlnx,dynamic-bus-sizing = <0>;
 			xlnx,temporal-depth = <0>;
-			xlnx,use-interrupt = <0>;
+			xlnx,use-interrupt = <1>;
 			xlnx,optimization = <0>;
 			xlnx,ip-axi-mon = <0>;
 			d-cache-highaddr = <0x3fffffff>;
@@ -123,6 +123,7 @@
 			xlnx,lockstep-slave = <0>;
 			xlnx,use-ext-nm-brk = <0>;
 			xlnx,instr-size = <32>;
+			interrupt-handle = <&axi_intc_0>;
 			xlnx,icache-always-used = <1>;
 			xlnx,i-lmb = <1>;
 			xlnx,mmu-dtlb-size = <4>;
@@ -218,12 +219,14 @@
 		};
 		buttons: gpio@40000000 {
 			#interrupt-cells = <2>;
+			interrupts = < 1 2 >;
 			xlnx,gpio-board-interface = "btns_4bits";
 			compatible = "xlnx,axi-gpio-2.0" , "xlnx,xps-gpio-1.00.a";
 			xlnx,all-outputs = <0>;
 			#gpio-cells = <2>;
 			xlnx,gpio-width = <4>;
 			clock-frequency = <100000000>;
+			interrupt-parent = <&axi_intc_0>;
 			xlnx,dout-default = <0x0>;
 			xlnx,is-dual = <0>;
 			xlnx,ip-name = "axi_gpio";
@@ -243,6 +246,7 @@
 			clock-names = "s_axi_aclk";
 			xlnx,use-board-flow;
 			interrupt-controller;
+			interrupt-names = "ip2intc_irpt";
 			xlnx,tri-default = <0xffffffff>;
 			xlnx,name = "buttons";
 			xlnx,all-inputs = <1>;
@@ -369,12 +373,14 @@
 		};
 		switch: gpio@40020000 {
 			#interrupt-cells = <2>;
+			interrupts = < 2 2 >;
 			xlnx,gpio-board-interface = "sws_2bits";
 			compatible = "xlnx,axi-gpio-2.0" , "xlnx,xps-gpio-1.00.a";
 			xlnx,all-outputs = <0>;
 			#gpio-cells = <2>;
 			xlnx,gpio-width = <2>;
 			clock-frequency = <100000000>;
+			interrupt-parent = <&axi_intc_0>;
 			xlnx,dout-default = <0x0>;
 			xlnx,is-dual = <0>;
 			xlnx,ip-name = "axi_gpio";
@@ -394,15 +400,18 @@
 			clock-names = "s_axi_aclk";
 			xlnx,use-board-flow;
 			interrupt-controller;
+			interrupt-names = "ip2intc_irpt";
 			xlnx,tri-default = <0xffffffff>;
 			xlnx,name = "switch";
 			xlnx,all-inputs = <1>;
 		};
 		timer: timer@41c00000 {
+			interrupts = < 0 2 >;
 			compatible = "xlnx,axi-timer-2.0" , "xlnx,xps-timer-1.00.a";
 			xlnx,gen1-assert = <1>;
 			clock-frequency = <100000000>;
 			xlnx,trig0-assert = <1>;
+			interrupt-parent = <&axi_intc_0>;
 			xlnx,count-width = <32>;
 			xlnx,ip-name = "axi_timer";
 			xlnx,one-timer-only = <0>;
@@ -414,6 +423,7 @@
 			status = "okay";
 			xlnx,trig1-assert = <1>;
 			xlnx,enable-timer2 = <1>;
+			interrupt-names = "interrupt";
 			xlnx,name = "timer";
 		};
 	};

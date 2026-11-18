@@ -1,4 +1,7 @@
 set_false_path -through [get_ports "Reset"]
+set_false_path -through [get_ports "Interrupt"]
+create_waiver -internal -scoped -user microblaze -tags 12436 -type CDC -id CDC-26 -description "Invalid LUTRAM collision warning" \
+  -to [get_pins -quiet "MicroBlaze_Core_I/*Interrupt_DFF/Single_Synchronize.use_sync_reset.sync_reg/D"]
 
 # Waiver for asynchronous reset 
 create_waiver -internal -scoped -user microblaze -tags 12436 -type CDC -id CDC-10 -description "Asynchronous reset" \

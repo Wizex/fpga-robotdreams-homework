@@ -52,4 +52,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_il
 # IP: bd/design_1/ip/design_1_lmb_bram_1/design_1_lmb_bram_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_lmb_bram_1 || ORIG_REF_NAME==design_1_lmb_bram_1} -quiet] -quiet
 
-# XDC: c:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vivado/vivado.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: c:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vivado/vivado.gen/sources_1/bd/design_1/design_1_ooc.xdc

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/xiltimer/src/core
+# Install script for directory: C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/xiltimer/src/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/core/default_timer/cmake_install.cmake")
+  include("C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/core/default_timer/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/User/Projects/fpga/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/core/install_local_manifest.txt"
+  file(WRITE "C:/Users/User/Projects/fpga/rd/lesson-10/led_chaser_microblaze/vitis/platform/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/xiltimer/src/core/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
