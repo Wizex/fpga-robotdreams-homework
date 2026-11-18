@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sim_1/new/tb_people_counter.sv,1794686335,systemVerilog,,,,tb_people_counter,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sources_1/new/people_counter_core.sv,1794686404,systemVerilog,,C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sources_1/new/people_counter_v1_0.sv,,people_counter_core,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sources_1/new/people_counter_v1_0.sv,1794686216,systemVerilog,,C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sources_1/new/people_counter_v1_0_S00_AXI.sv,,people_counter_v1_0,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sources_1/new/people_counter_v1_0_S00_AXI.sv,1794686143,systemVerilog,,C:/Users/User/Projects/fpga/lesson-16/people_counter/people_counter.srcs/sim_1/new/tb_people_counter.sv,,people_counter_v1_0_S00_AXI,,uvm,../../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
