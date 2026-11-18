@@ -1,0 +1,55 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.78375",
+   "Default View_TopLeft":"1235,-713",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port arduino_a0_a5_1 -pg 1 -lvl 10 -x 3020 -y -660 -defaultsOSRD
+preplace port arduino_a0_a5 -pg 1 -lvl 10 -x 3020 -y -710 -defaultsOSRD
+preplace port leds_4bits -pg 1 -lvl 10 -x 3020 -y -770 -defaultsOSRD
+preplace port leds_4bits_0 -pg 1 -lvl 10 -x 3020 -y -740 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x -160 -y -610 -defaultsOSRD
+preplace port port-id_reset_rtl -pg 1 -lvl 0 -x -160 -y 30 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 8 -x 2370 -y 180 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 9 -x 2810 -y 50 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 7 -x 1970 -y -510 -defaultsOSRD
+preplace inst timer -pg 1 -lvl 4 -x 890 -y -320 -defaultsOSRD
+preplace inst switch -pg 1 -lvl 5 -x 1220 -y -460 -defaultsOSRD
+preplace inst buttons -pg 1 -lvl 3 -x 560 -y -690 -defaultsOSRD
+preplace inst leds -pg 1 -lvl 2 -x 250 -y -780 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 6 -x 1540 -y -250 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 5 -x 1220 -y -190 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 6 -x 1540 -y 180 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 7 -x 1970 -y -340 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 8 -x 2370 -y -350 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 1 -x 0 -y -910 -defaultsOSRD
+preplace netloc buttons_ip2intc_irpt 1 0 5 -100 -590 N -590 N -590 680J -590 1040
+preplace netloc clk_wiz_locked 1 6 3 1740 90 NJ 90 NJ
+preplace netloc mdm_1_debug_sys_rst 1 5 4 1420 250 N 250 N 250 2490
+preplace netloc microblaze_0_Clk 1 0 9 -130 -780 120 -690 430 -450 750 -450 1090 -370 1400 -370 1700 -70 2250 -70 2490
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 7 3 2260 -60 NJ -60 2990
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 6 4 1740 -50 NJ -50 NJ -50 2980
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 9 140 -670 420 -430 740J -430 1100J -380 1410J -380 1690 -650 NJ -650 NJ -650 3000
+preplace netloc switch_ip2intc_irpt 1 0 6 -110 -210 N -210 N -210 N -210 1020 -270 1340
+preplace netloc sys_clock_1 1 0 6 -140 -540 N -540 N -540 N -540 N -540 1350
+preplace netloc timer_interrupt 1 0 5 -120 -200 N -200 N -200 N -200 1030
+preplace netloc xlconcat_0_dout 1 5 1 1380 -220n
+preplace netloc buttons_GPIO 1 3 7 NJ -700 NJ -700 1380J -710 NJ -710 NJ -710 NJ -710 NJ
+preplace netloc microblaze_0_M_AXI_DP 1 6 2 1740 -610 2210
+preplace netloc microblaze_0_debug 1 6 3 1730 -40 NJ -40 2480
+preplace netloc microblaze_0_dlmb_1 1 7 1 2230J -380n
+preplace netloc microblaze_0_ilmb_1 1 7 1 2240 -360n
+preplace netloc smartconnect_0_M00_AXI 1 2 6 440 -610 NJ -610 NJ -610 NJ -610 1730 -620 2230
+preplace netloc smartconnect_0_M01_AXI 1 1 7 130 -600 NJ -600 690J -650 NJ -650 NJ -650 1660 -670 2200
+preplace netloc smartconnect_0_M02_AXI 1 4 4 1100 -630 NJ -630 1680 -640 2220
+preplace netloc smartconnect_0_M03_AXI 1 3 5 760 -620 NJ -620 NJ -620 1700 -630 2240
+preplace netloc smartconnect_0_M04_AXI 1 5 3 1420 -340 1720J -250 2200
+preplace netloc switch_GPIO 1 5 5 1380J -640 1670J -660 NJ -660 NJ -660 NJ
+preplace netloc leds_GPIO 1 2 8 NJ -780 680J -740 NJ -740 NJ -740 NJ -740 NJ -740 NJ -740 NJ
+preplace netloc axi_intc_0_interrupt 1 6 1 1710 -370n
+levelinfo -pg 1 -160 0 250 560 890 1220 1540 1970 2370 2810 3020
+pagesize -pg 1 -db -bbox -sgen -310 -1030 3280 330
+"
+}
+0
