@@ -94,15 +94,6 @@ stateDiagram-v2
 Сценарій 2 перевіряє захист від переходу через нуль: без умови `count != 0` COUNT став би `0xFFFFFFFF`, і тестбенч показав би FAIL.
 
 Результат запуску тестбенча модуля:
-
-```
-OK: COUNT=1
-OK: COUNT=0
-OK: COUNT=0
-OK: COUNT=1
-PASS: all people-counter scenarios passed
-```
-
 ![Тестбенч модуля: PASS](docs/step2_tb_pass.jpeg)
 
 Програма на C перевіряє ті самі чотири сценарії з тими самими очікуваними значеннями (1, 0, 0, 1).
@@ -119,7 +110,7 @@ PASS: all people-counter scenarios passed
 
 - IP упаковано через Package IP, репозиторій додано в IP Catalog. Зламана копія в пакет не входить.
 
-  ![IP Catalog](docs/step4_ip_catalog.png)
+  ![IP Catalog](docs/step4_it_catalog.png)
 
 - Block Design: MicroBlaze, пам'ять, тактовий сигнал, скидання, IP на шині AXI4-Lite. Validate Design пройдено успішно. Базова адреса IP в Address Editor: `0x0001_0000`, діапазон 4K (до `0x0001_0FFF`). Адреси регістрів: SENS `0x0001_0000`, COUNT `0x0001_0004`, CTRL `0x0001_0008`.
 
